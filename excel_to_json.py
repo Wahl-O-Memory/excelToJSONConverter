@@ -67,4 +67,3 @@ if __name__ == "__main__":
         for file in os.listdir(exe_dir):
             if file.endswith(".xlsx"):
                 convert_excel_to_json(os.path.join(exe_dir, file), exe_dir)
-        input("Press Enter to exit...")
